@@ -1,0 +1,2 @@
+# Run if docker daemon is unreponsive due to permissions
+sudo aa-remove-unknown
