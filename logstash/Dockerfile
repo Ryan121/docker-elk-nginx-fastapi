@@ -5,3 +5,7 @@ FROM docker.elastic.co/logstash/logstash:${ELASTIC_VERSION}
 
 # Add your logstash plugins setup here
 # Example: RUN logstash-plugin install logstash-filter-json
+COPY . .
+
+RUN tar xzf GeoLite2-ASN_20230519.tar.gz
+RUN tar xzf GeoLite2-City_20230519.tar.gz

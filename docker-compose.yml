@@ -2,10 +2,11 @@ version: '3.2'
 
 services:
   elasticsearch:
-    build:
-      context: elasticsearch/
-      args:
-        ELK_VERSION: $ELK_VERSION
+    # build:
+    #   context: elasticsearch/
+    #   args:
+    #     ELK_VERSION: $ELASTIC_VERSION
+    image: elasticsearch
     volumes:
       - type: bind
         source: ./elasticsearch/config/elasticsearch.yml
@@ -14,6 +15,10 @@ services:
       - type: volume
         source: elasticsearch
         target: /usr/share/elasticsearch/data
+      # - type: bind
+      #   source: database
+        # target: /usr/share/nginx/html:ro nginx
+      # - database:/usr/share/nginx/html:ro nginx
     ports:
       - "9200:9200"
       - "9300:9300"
@@ -24,10 +29,11 @@ services:
       - elk
 
   logstash:
-    build:
-      context: logstash/
-      args:
-        ELK_VERSION: $ELK_VERSION
+    # build:
+    #   context: logstash/
+    #   args:
+    #     ELK_VERSION: $ELASTIC_VERSION
+    image: logstash
     volumes:
       - type: bind
         source: ./logstash/config/logstash.yml
@@ -43,17 +49,18 @@ services:
     expose: 
       - "5044"
     environment:
-      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+      LS_JAVA_OPTS: "-Xmx1024m -Xms1024m"
     networks:
       - elk
     depends_on:
       - elasticsearch
 
   kibana:
-    build:
-      context: kibana/
-      args:
-        ELK_VERSION: $ELK_VERSION
+    # build:
+    #   context: kibana/
+      # args:
+      #   ELK_VERSION: $ELASTIC_VERSION
+    image: kibana
     volumes:
       - type: bind
         source: ./kibana/config/kibana.yml
@@ -67,10 +74,11 @@ services:
       - elasticsearch
 
   app:
-    build : ./app
+    # build : ./app
+    image: app
     volumes:
       - ./app/:/usr/src/app
-      - /usr/src/app/node_modules/ # make node_module empty in container
+      - ./app/log:/var/log/app
     command: uvicorn main:app --host 0.0.0.0 --port 8000
     ports:
       - "8000:8000"
@@ -78,7 +86,8 @@ services:
       - elk
 
   nginx:
-    build: ./nginx
+    # build: ./nginx
+    image: nginx
     volumes:
       - ./nginx/config:/etc/nginx/conf.d
       - ./nginx/log:/var/log/nginx
@@ -93,7 +102,8 @@ services:
       - elk
 
   filebeat:
-    build: ./filebeat
+    # build: ./filebeat
+    image: filebeat
     entrypoint: "filebeat -e -strict.perms=false"
     volumes:
       - ./filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml

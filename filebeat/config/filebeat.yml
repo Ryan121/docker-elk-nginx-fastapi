@@ -2,7 +2,35 @@ filebeat.inputs:
 - type: log
   enabled: true
   paths:
-    - /var/log/nginx/*.log
+    - /var/log/nginx/access.log
+  fields:
+    log_type: nginx.access
+  tags: nginx_access
+
+# filebeat.inputs:
+# - type: log
+#   enabled: true
+#   paths:
+#     - /var/log/nginx/access.log
+#   fields:
+#     log_type: nginx.access
+#   tags: nginx.access
+
+# - type: log
+#   enabled: true
+#   paths:
+#     - /var/log/app/*.log
+# filebeat:
+#   prospectors:
+#     - input_type: log
+#       paths:
+#         - /var/log/nginx/access.log
+#       tags: ["nginx.access"]
+
+#     - input_type: log
+#       paths:
+#         - /var/log/nginx/error.log
+#       tags: ["nginx.error"]
 
 output.logstash:
   enabled: true
@@ -15,5 +43,5 @@ output.logstash:
 #   password: "changeme"
 setup.kibana:
   host: "http://kibana:5601"
-  username: "elastic"
+  username: "kibana_system"
   password: "changeme"

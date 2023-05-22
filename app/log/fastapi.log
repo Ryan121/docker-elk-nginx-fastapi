@@ -1,0 +1,115 @@
+2023-05-18 14:13:30,399 - INFO - main - ---Starting App---
+2023-05-18 14:15:15,614 - INFO - main - ---Starting App---
+2023-05-18 14:15:18,351 - INFO - main - 1121bf90-5bac-47ef-b64d-29d9625ea77c
+2023-05-18 14:16:30,699 - INFO - main - ---Starting App---
+2023-05-18 14:18:55,643 - INFO - main - ---Starting App---
+2023-05-18 14:19:07,164 - INFO - main - ---Starting App---
+2023-05-18 14:19:44,073 - INFO - main - ---Starting App---
+2023-05-18 14:19:55,988 - INFO - main - ---Starting App---
+2023-05-18 14:19:58,158 - INFO - main - ---Starting App---
+2023-05-18 14:20:09,736 - INFO - main - ---Starting App---
+2023-05-18 14:20:19,225 - INFO - main - ---Starting App---
+2023-05-18 14:20:24,954 - INFO - main - ---Starting App---
+2023-05-18 14:20:46,933 - INFO - main - ---Starting App---
+2023-05-18 14:20:48,477 - INFO - main - ---Starting App---
+2023-05-18 14:20:58,054 - INFO - main - ---Starting App---
+2023-05-18 14:26:27,971 - INFO - main - ---Starting App---
+2023-05-18 14:26:37,725 - INFO - main - ---Starting App---
+2023-05-18 14:26:38,764 - INFO - main - ---Starting App---
+2023-05-18 14:26:40,964 - INFO - main - ---Starting App---
+2023-05-18 14:26:52,346 - INFO - main - ---Starting App---
+2023-05-18 14:26:54,772 - INFO - main - ---Starting App---
+2023-05-18 14:27:03,647 - INFO - main - ---Starting App---
+2023-05-18 14:27:15,469 - INFO - main - ---Starting App---
+2023-05-18 14:27:19,411 - INFO - main - ---Starting App---
+2023-05-18 14:27:26,064 - INFO - main - ---Starting App---
+2023-05-18 14:27:29,934 - INFO - main - ---Starting App---
+2023-05-18 14:27:41,787 - INFO - main - ---Starting App---
+2023-05-18 14:27:45,409 - INFO - main - ---Starting App---
+2023-05-18 14:27:58,699 - INFO - main - Root endpoint request successful
+2023-05-18 14:31:59,282 - INFO - main - ---Starting App---
+2023-05-18 14:35:42,749 - INFO - main - Log check endpoint successful
+2023-05-18 14:45:15,431 - INFO - main - Root endpoint request successful
+2023-05-18 14:45:18,556 - INFO - main - Log check endpoint successful
+2023-05-18 14:46:36,113 - INFO - main - Log check endpoint successful
+2023-05-18 14:46:51,818 - INFO - main - Extra endpoint request successful
+2023-05-18 15:04:43,861 - INFO - main - ---Starting App---
+2023-05-18 15:09:27,632 - INFO - main - Root endpoint request successful
+2023-05-18 15:10:05,615 - INFO - main - Root endpoint request successful
+2023-05-18 15:10:11,687 - INFO - main - Log check endpoint successful
+2023-05-18 15:10:14,952 - INFO - main - Extra endpoint request successful
+2023-05-18 15:13:26,591 - INFO - main - Root endpoint request successful
+2023-05-18 15:39:47,136 - INFO - main - Root endpoint request successful
+2023-05-18 16:55:10,305 - INFO - main - ---Starting App---
+2023-05-18 16:58:33,119 - INFO - main - Root endpoint request successful
+2023-05-18 16:58:38,068 - INFO - main - Log check endpoint successful
+2023-05-18 17:02:30,607 - INFO - main - ---Starting App---
+2023-05-18 17:33:24,839 - INFO - main - ---Starting App---
+2023-05-18 17:41:28,409 - INFO - main - ---Starting App---
+2023-05-18 18:21:58,736 - INFO - main - ---Starting App---
+2023-05-18 18:29:47,442 - INFO - main - ---Starting App---
+2023-05-18 18:30:02,365 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:34,615 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:35,606 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:36,102 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:36,330 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:36,513 - INFO - main - Root endpoint request successful
+2023-05-18 18:30:38,980 - INFO - main - Extra endpoint request successful
+2023-05-18 18:49:08,739 - INFO - main - ---Starting App---
+2023-05-18 18:56:11,724 - INFO - main - ---Starting App---
+2023-05-18 18:58:37,114 - INFO - main - Root endpoint request successful
+2023-05-18 19:03:33,332 - INFO - main - ---Starting App---
+2023-05-18 19:05:27,091 - INFO - main - ---Starting App---
+2023-05-18 19:07:54,216 - INFO - main - Root endpoint request successful
+2023-05-18 19:08:32,661 - INFO - main - Extra endpoint request successful
+2023-05-18 19:18:15,972 - INFO - main - ---Starting App---
+2023-05-18 19:22:03,529 - INFO - main - Extra endpoint request successful
+2023-05-18 19:22:04,141 - INFO - main - Extra endpoint request successful
+2023-05-18 19:22:04,529 - INFO - main - Extra endpoint request successful
+2023-05-18 19:22:04,733 - INFO - main - Extra endpoint request successful
+2023-05-18 19:29:54,107 - INFO - main - ---Starting App---
+2023-05-18 19:42:27,147 - INFO - main - Log check endpoint successful
+2023-05-18 19:42:29,370 - INFO - main - Log check endpoint successful
+2023-05-18 20:30:27,713 - INFO - main - ---Starting App---
+2023-05-18 21:06:23,528 - INFO - main - ---Starting App---
+2023-05-18 21:13:45,106 - INFO - main - Root endpoint request successful
+2023-05-18 21:35:31,679 - INFO - main - ---Starting App---
+2023-05-18 21:41:57,592 - INFO - main - ---Starting App---
+2023-05-18 22:08:45,739 - INFO - main - ---Starting App---
+2023-05-18 22:11:07,745 - INFO - main - ---Starting App---
+2023-05-18 22:15:36,053 - INFO - main - ---Starting App---
+2023-05-18 22:17:04,631 - INFO - main - ---Starting App---
+2023-05-18 22:17:07,102 - INFO - main - Root endpoint request successful
+2023-05-18 23:20:07,082 - INFO - main - ---Starting App---
+2023-05-18 23:22:17,573 - INFO - main - Root endpoint request successful
+2023-05-18 23:23:15,172 - INFO - main - Extra endpoint request successful
+2023-05-18 23:37:42,359 - INFO - main - ---Starting App---
+2023-05-18 23:39:02,260 - INFO - main - Extra endpoint request successful
+2023-05-18 23:39:02,679 - INFO - main - Extra endpoint request successful
+2023-05-18 23:39:03,191 - INFO - main - Extra endpoint request successful
+2023-05-18 23:39:03,593 - INFO - main - Extra endpoint request successful
+2023-05-18 23:49:38,356 - INFO - main - ---Starting App---
+2023-05-18 23:51:09,456 - INFO - main - ---Starting App---
+2023-05-18 23:55:00,450 - INFO - main - ---Starting App---
+2023-05-19 00:11:27,171 - INFO - main - ---Starting App---
+2023-05-19 00:17:31,983 - INFO - main - ---Starting App---
+2023-05-19 00:24:00,812 - INFO - main - ---Starting App---
+2023-05-19 00:35:24,280 - INFO - main - ---Starting App---
+2023-05-19 00:38:34,388 - INFO - main - Root endpoint request successful
+2023-05-22 11:55:48,006 - INFO - main - ---Starting App---
+2023-05-22 11:58:22,810 - INFO - main - Root endpoint request successful
+2023-05-22 11:58:23,139 - INFO - main - Root endpoint request successful
+2023-05-22 11:58:23,416 - INFO - main - Root endpoint request successful
+2023-05-22 11:58:23,703 - INFO - main - Root endpoint request successful
+2023-05-22 11:58:23,971 - INFO - main - Root endpoint request successful
+2023-05-22 11:58:26,261 - INFO - main - Extra endpoint request successful
+2023-05-22 11:58:32,142 - INFO - main - Log check endpoint successful
+2023-05-22 12:05:09,462 - INFO - main - ---Starting App---
+2023-05-22 12:08:51,452 - INFO - main - ---Starting App---
+2023-05-22 12:13:37,136 - INFO - main - ---Starting App---
+2023-05-22 12:15:59,651 - INFO - main - ---Starting App---
+2023-05-22 12:22:11,487 - INFO - main - Root endpoint request successful
+2023-05-22 12:40:47,633 - INFO - main - ---Starting App---
+2023-05-22 12:42:23,093 - INFO - main - ---Starting App---
+2023-05-22 12:44:26,514 - INFO - main - Root endpoint request successful
+2023-05-22 12:47:27,489 - INFO - main - ---Starting App---

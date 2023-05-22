@@ -4,9 +4,10 @@
 #
 http.host: "0.0.0.0"
 xpack.monitoring.elasticsearch.hosts: [ "http://elasticsearch:9200" ]
-xpack.security.http.ssl.enabled: false
+# xpack.geoip.download.endpoint: http://172.27.0.4:80/overview.json
+# xpack.security.http.ssl.enabled: false
 ## X-Pack security credentials
 #
 xpack.monitoring.enabled: true
-xpack.monitoring.elasticsearch.username: elastic
+xpack.monitoring.elasticsearch.username: kibana_system
 xpack.monitoring.elasticsearch.password: changeme

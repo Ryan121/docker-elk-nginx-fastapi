@@ -1,2 +1,17 @@
 # Run if docker daemon is unreponsive due to permissions
 sudo aa-remove-unknown
+
+# Docker build ELK components individually
+docker build --tag=elasticsearch --build-arg ELASTIC_VERSION=8.7.1
+
+# Access container shell
+docker exec -it 000266eb6272 bash
+
+# Access shell as root
+docker exec -it --user root 78c765c3d570 /bin/bash
+
+# Install logstash plugin
+bin/logstash-plugin install logstash-filter-ip2location
+
+# Extract tarball
+tar xzf GeoLite2-ASN_20230519.tar.gz

@@ -63,7 +63,7 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
 
   # config.vm.synced_folder ".", "/var/www/html"
-  config.vm.synced_folder ".", "/home/vagrant/sync_drive"
+  config.vm.synced_folder "../.", "/home/vagrant/sync_drive"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -74,7 +74,7 @@ Vagrant.configure("2") do |config|
     # vb.gui = true
   
     # Customize the amount of memory / RAM on the VM:
-    vb.memory = "8192" # 4096 or 8192
+    vb.memory = "4096" # 4096 or 8192
 
     # Customise the cpus
     vb.cpus = 4

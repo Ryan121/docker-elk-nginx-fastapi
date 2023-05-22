@@ -54,20 +54,20 @@ python3.11 -m pip install --upgrade pip
 python3.11 -m pip install -r ./sync_drive/requirements.txt
 
 # Install docker package
-sudo apt-get install docker.io
+sudo apt-get install -y docker.io
 
-sudo apt dist-upgrade
+sudo apt -y dist-upgrade
 
-sudo apt install -y gnupg2 pass
+# sudo apt install -y gnupg2 pass
 
 # Install docker 
-sudo snap install docker
+# sudo snap install docker
 
 # Install docker compose
 # sudo apt-get install docker-compose
 
 # Change the access permission of the docker.sock file
-chmod 777 /var/run/docker.sock
+# chmod 777 /var/run/docker.sock
 
 # dckr_pat_w409cwq13STebTUuXNUpUjBOEWc
 # Login to docker hub
@@ -80,6 +80,8 @@ VERSION=$(curl --silent https://api.github.com/repos/docker/compose/releases/lat
 DESTINATION=/usr/local/bin/docker-compose
 
 sudo curl -L https://github.com/docker/compose/releases/download/${VERSION}/docker-compose-$(uname -s)-$(uname -m) -o $DESTINATION
+
+cd /usr/local/bin
 
 sudo mv ./docker-compose /usr/bin/docker-compose
 
